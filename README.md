@@ -1,16 +1,16 @@
-# weather_app
+# Flutter Weather App
+ 
+It fetches data from the OpenWeatherMap API and shows current weather, hourly forecast, and additional info.
 
-A new Flutter project.
+## Features
 
-## Getting Started
+- Get weather forecast for a default city (`London`)
+- Display current temperature, condition, and weather icon
+- Horizontal hourly forecast list (next 5 entries)
+- Additional info: humidity, wind speed, pressure
+- Pull-to-refresh using refresh icon
 
-This project is a starting point for a Flutter application.
+## Packages Used
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [`http`](https://pub.dev/packages/http) – to fetch data from OpenWeatherMap
+- [`intl`](https://pub.dev/packages/intl) – to format time
